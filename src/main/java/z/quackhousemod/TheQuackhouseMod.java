@@ -16,6 +16,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import z.quackhousemod.creativemodetab.QuackhouseCreativeModeTabs;
 import z.quackhousemod.item.QuackhouseItems;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -31,6 +32,8 @@ public class TheQuackhouseMod {
     public TheQuackhouseMod(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        QuackhouseCreativeModeTabs.register(modEventBus);
 
         QuackhouseItems.register(modEventBus);
 
