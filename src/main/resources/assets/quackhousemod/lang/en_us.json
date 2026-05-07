@@ -1,0 +1,13 @@
+{
+  "itemGroup.quackhousemod": "Example Mod Tab",
+  "block.quackhousemod.example_block": "Example Block",
+  "item.quackhousemod.example_item": "Example Item",
+
+  "quackhousemod.configuration.title": "The Quackhouse Mod Configs",
+  "quackhousemod.configuration.section.quackhousemod.common.toml": "The Quackhouse Mod Configs",
+  "quackhousemod.configuration.section.quackhousemod.common.toml.title": "The Quackhouse Mod Configs",
+  "quackhousemod.configuration.items": "Item List",
+  "quackhousemod.configuration.logDirtBlock": "Log Dirt Block",
+  "quackhousemod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "quackhousemod.configuration.magicNumber": "Magic Number"
+}
