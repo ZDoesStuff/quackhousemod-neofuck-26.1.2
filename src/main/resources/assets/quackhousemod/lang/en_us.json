@@ -1,13 +1,15 @@
 {
-  "itemGroup.quackhousemod": "Example Mod Tab",
-  "block.quackhousemod.example_block": "Example Block",
-  "item.quackhousemod.example_item": "Example Item",
-
-  "quackhousemod.configuration.title": "The Quackhouse Mod Configs",
-  "quackhousemod.configuration.section.quackhousemod.common.toml": "The Quackhouse Mod Configs",
-  "quackhousemod.configuration.section.quackhousemod.common.toml.title": "The Quackhouse Mod Configs",
-  "quackhousemod.configuration.items": "Item List",
-  "quackhousemod.configuration.logDirtBlock": "Log Dirt Block",
-  "quackhousemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "quackhousemod.configuration.magicNumber": "Magic Number"
+  "item.quackhousemod.yellow_rubber_ducky": "Yellow Rubber Duck",
+  "item.quackhousemod.brown_rubber_ducky": "Brown Rubber Duck",
+  "item.quackhousemod.bathed_rubber_ducky": "Bathed Rubber Duck",
+  "item.quackhousemod.blue_rubber_ducky": "Blue Rubber Duck",
+  "item.quackhousemod.blueberry_rubber_ducky": "Blueberry Duck",
+  "item.quackhousemod.strawberry_shortcake_rubber_ducky": "Strawberry Shortcake Duck",
+  "item.quackhousemod.isobel_rubber_ducky": "Duckybrine",
+  "item.quackhousemod.polkadot_rubber_ducky": "Polkadot Rubber Duck",
+  "item.quackhousemod.molten_rubber_ducky": "Molten Stone Duck",
+  "item.quackhousemod.stone_rubber_ducky": "Stone Duck",
+  "item.quackhousemod.gay_rubber_ducky": "Pride Rubber Duck",
+  "item.quackhousemod.trans_rubber_ducky": "Trans Rubber Duck",
+  "item.quackhousemod.grape_juice_rubber_ducky": "Grape Juice Duck"
 }

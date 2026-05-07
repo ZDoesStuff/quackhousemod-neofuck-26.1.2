@@ -16,6 +16,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import z.quackhousemod.item.QuackhouseItems;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(TheQuackhouseMod.MOD_ID)
@@ -31,6 +32,8 @@ public class TheQuackhouseMod {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        QuackhouseItems.register(modEventBus);
+
         NeoForge.EVENT_BUS.register(this);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -44,7 +47,21 @@ public class TheQuackhouseMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(QuackhouseItems.YELLOW_DUCKY);
+            event.accept(QuackhouseItems.SUDSY_DUCKY);
+            event.accept(QuackhouseItems.BLUE_DUCKY);
+            event.accept(QuackhouseItems.BLUEBERRY_DUCKY);
+            event.accept(QuackhouseItems.BROWN_DUCKY);
+            event.accept(QuackhouseItems.PRIDE_DUCKY);
+            event.accept(QuackhouseItems.GRAPEJUICE_DUCKY);
+            event.accept(QuackhouseItems.ISOBEL_DUCKY);
+            event.accept(QuackhouseItems.MOLTEN_DUCKY);
+            event.accept(QuackhouseItems.POLKATDOT_DUCKY);
+            event.accept(QuackhouseItems.STONE_DUCKY);
+            event.accept(QuackhouseItems.STRAWBERRYSHORTCAKE_DUCKY);
+            event.accept(QuackhouseItems.TRANS_DUCKY);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
