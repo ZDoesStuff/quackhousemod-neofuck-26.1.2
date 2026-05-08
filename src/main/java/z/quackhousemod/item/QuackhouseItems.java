@@ -20,7 +20,7 @@ public class QuackhouseItems {
     public static final DeferredItem<Item> GRAPEJUICE_DUCKY = ITEMS.registerSimpleItem("grape_juice_rubber_ducky");
     public static final DeferredItem<Item> ISOBEL_DUCKY = ITEMS.registerSimpleItem("isobel_rubber_ducky");
     public static final DeferredItem<Item> MOLTEN_DUCKY = ITEMS.registerSimpleItem("molten_rubber_ducky");
-    public static final DeferredItem<Item> POLKATDOT_DUCKY = ITEMS.registerSimpleItem("polkadot_rubber_ducky");
+    public static final DeferredItem<Item> POLKADOT_DUCKY = ITEMS.registerSimpleItem("polkadot_rubber_ducky");
     public static final DeferredItem<Item> STONE_DUCKY = ITEMS.registerSimpleItem("stone_rubber_ducky");
     public static final DeferredItem<Item> STRAWBERRYSHORTCAKE_DUCKY = ITEMS.registerSimpleItem("strawberry_shortcake_rubber_ducky");
     public static final DeferredItem<Item> TRANS_DUCKY = ITEMS.registerSimpleItem("trans_rubber_ducky");

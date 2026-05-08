@@ -25,7 +25,7 @@ public class QuackhouseModelProvider extends ModelProvider {
         itemModels.generateFlatItem(QuackhouseItems.GRAPEJUICE_DUCKY.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(QuackhouseItems.ISOBEL_DUCKY.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(QuackhouseItems.MOLTEN_DUCKY.get(), ModelTemplates.FLAT_ITEM);
-        itemModels.generateFlatItem(QuackhouseItems.POLKATDOT_DUCKY.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(QuackhouseItems.POLKADOT_DUCKY.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(QuackhouseItems.STONE_DUCKY.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(QuackhouseItems.STRAWBERRYSHORTCAKE_DUCKY.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(QuackhouseItems.TRANS_DUCKY.get(), ModelTemplates.FLAT_ITEM);

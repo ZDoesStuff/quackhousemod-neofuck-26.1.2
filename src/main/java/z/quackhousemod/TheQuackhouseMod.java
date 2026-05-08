@@ -60,7 +60,7 @@ public class TheQuackhouseMod {
             event.accept(QuackhouseItems.GRAPEJUICE_DUCKY);
             event.accept(QuackhouseItems.ISOBEL_DUCKY);
             event.accept(QuackhouseItems.MOLTEN_DUCKY);
-            event.accept(QuackhouseItems.POLKATDOT_DUCKY);
+            event.accept(QuackhouseItems.POLKADOT_DUCKY);
             event.accept(QuackhouseItems.STONE_DUCKY);
             event.accept(QuackhouseItems.STRAWBERRYSHORTCAKE_DUCKY);
             event.accept(QuackhouseItems.TRANS_DUCKY);

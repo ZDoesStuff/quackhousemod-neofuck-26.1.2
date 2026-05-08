@@ -23,7 +23,7 @@ public class QuackhouseCreativeModeTabs {
                         output.accept(QuackhouseItems.BROWN_DUCKY);
                         output.accept(QuackhouseItems.BLUE_DUCKY);
                         output.accept(QuackhouseItems.STONE_DUCKY);
-                        output.accept(QuackhouseItems.POLKATDOT_DUCKY);
+                        output.accept(QuackhouseItems.POLKADOT_DUCKY);
                         output.accept(QuackhouseItems.PRIDE_DUCKY);
                         output.accept(QuackhouseItems.TRANS_DUCKY);
                         output.accept(QuackhouseItems.BLUEBERRY_DUCKY);
