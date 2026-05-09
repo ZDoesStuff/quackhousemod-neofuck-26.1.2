@@ -24,6 +24,11 @@ public class QuackhouseItems {
     public static final DeferredItem<Item> STONE_DUCKY = ITEMS.registerSimpleItem("stone_rubber_ducky");
     public static final DeferredItem<Item> STRAWBERRYSHORTCAKE_DUCKY = ITEMS.registerSimpleItem("strawberry_shortcake_rubber_ducky");
     public static final DeferredItem<Item> TRANS_DUCKY = ITEMS.registerSimpleItem("trans_rubber_ducky");
+    public static final DeferredItem<Item> RED_DUCKY = ITEMS.registerSimpleItem("red_rubber_ducky");
+    public static final DeferredItem<Item> GOOGLY_DUCKY = ITEMS.registerSimpleItem("googly_rubber_ducky");
+    public static final DeferredItem<Item> FANCY_DUCKY = ITEMS.registerSimpleItem("dapper_rubber_ducky");
+    public static final DeferredItem<Item> MAGNESIUM_SULFATE_CRYSTAL = ITEMS.registerSimpleItem("magnesium_sulfate_crystal");
+    public static final DeferredItem<Item> EPSOM_SALT = ITEMS.registerSimpleItem("epsom_salt");
 
     // This is the registry method for the registry method. Simple, yet I find it redundant.
     public static void register(IEventBus eventBus) {

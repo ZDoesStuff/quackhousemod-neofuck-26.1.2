@@ -12,6 +12,18 @@
   "item.quackhousemod.gay_rubber_ducky": "Pride Rubber Duck",
   "item.quackhousemod.trans_rubber_ducky": "Trans Rubber Duck",
   "item.quackhousemod.grape_juice_rubber_ducky": "Grape Juice Duck",
+  "item.quackhousemod.red_rubber_ducky": "Red Rubber Duck",
+  "item.quackhousemod.googly_rubber_ducky": "Googly-eyed Rubber Duck",
+  "item.quackhousemod.dapper_rubber_ducky": "Fancy Rubber Duck",
+  "item.quackhousemod.magnesium_sulfate_crystal": "Magnesium Sulfate Crystal",
+  "item.quackhousemod.epsom_salt": "Epsom Salt",
 
-  "creativemodetab.quackhousemod.collectable_ducky": "Collectable Ducks"
+  "block.quackhousemod.magnesium_sulfate_ore": "Magnesium Sulfate Ore",
+  "block.quackhousemod.deepslate_magnesium_sulfate_ore": "Deepslate Magnesium Sulfate Ore",
+  "block.quackhousemod.magnesium_sulfate_block": "Block of Magnesium Sulfate",
+  "block.quackhousemod.magnesium_sulfate_bricks": "Magnesium Sulfate Bricks",
+
+  "creativemodetab.quackhousemod.collectable_ducky": "Collectable Ducks",
+  "creativemodetab.quackhousemod.quackhouseblocks": "Quackhouse Blocks",
+  "creativemodetab.quackhousemod.quackhouseitems": "Quackhouse Items"
 }

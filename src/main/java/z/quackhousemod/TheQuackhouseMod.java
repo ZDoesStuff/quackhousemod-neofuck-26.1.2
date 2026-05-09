@@ -16,6 +16,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import z.quackhousemod.block.QuackhouseBlocks;
 import z.quackhousemod.creativemodetab.QuackhouseCreativeModeTabs;
 import z.quackhousemod.item.QuackhouseItems;
 
@@ -36,35 +37,15 @@ public class TheQuackhouseMod {
         QuackhouseCreativeModeTabs.register(modEventBus);
 
         QuackhouseItems.register(modEventBus);
+        QuackhouseBlocks.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
-        // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
 
-    }
-
-    // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(QuackhouseItems.YELLOW_DUCKY);
-            event.accept(QuackhouseItems.SUDSY_DUCKY);
-            event.accept(QuackhouseItems.BLUE_DUCKY);
-            event.accept(QuackhouseItems.BLUEBERRY_DUCKY);
-            event.accept(QuackhouseItems.BROWN_DUCKY);
-            event.accept(QuackhouseItems.PRIDE_DUCKY);
-            event.accept(QuackhouseItems.GRAPEJUICE_DUCKY);
-            event.accept(QuackhouseItems.ISOBEL_DUCKY);
-            event.accept(QuackhouseItems.MOLTEN_DUCKY);
-            event.accept(QuackhouseItems.POLKADOT_DUCKY);
-            event.accept(QuackhouseItems.STONE_DUCKY);
-            event.accept(QuackhouseItems.STRAWBERRYSHORTCAKE_DUCKY);
-            event.accept(QuackhouseItems.TRANS_DUCKY);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
