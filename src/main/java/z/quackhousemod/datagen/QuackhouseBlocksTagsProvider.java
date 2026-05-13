@@ -21,10 +21,14 @@ public class QuackhouseBlocksTagsProvider extends BlockTagsProvider {
                 .add(QuackhouseBlocks.MAGNESIUM_SULFATE_ORE.get())
                 .add(QuackhouseBlocks.DEEPSLATE_MAGNESIUM_SULFATE_ORE.get())
                 .add(QuackhouseBlocks.MAGNESIUM_SULFATE_BLOCK.get())
-                .add(QuackhouseBlocks.MAGNESIUM_SULFATE_BRICKS.get());
+                .add(QuackhouseBlocks.MAGNESIUM_SULFATE_BRICKS.get())
+                .add(QuackhouseBlocks.SUSPICIOUS_STONE.get());
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(QuackhouseBlocks.MAGNESIUM_SULFATE_ORE.get())
                 .add(QuackhouseBlocks.DEEPSLATE_MAGNESIUM_SULFATE_ORE.get());
+
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(QuackhouseBlocks.SUSPICIOUS_STONE.get());
     }
 }

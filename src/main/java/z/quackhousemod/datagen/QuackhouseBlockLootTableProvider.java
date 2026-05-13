@@ -36,6 +36,9 @@ public class QuackhouseBlockLootTableProvider extends BlockLootSubProvider {
                 createMultipleOreDrops(QuackhouseBlocks.MAGNESIUM_SULFATE_ORE.get(), QuackhouseItems.MAGNESIUM_SULFATE_CRYSTAL.get(), 1, 4));
         add(QuackhouseBlocks.DEEPSLATE_MAGNESIUM_SULFATE_ORE.get(),
                 createMultipleOreDrops(QuackhouseBlocks.DEEPSLATE_MAGNESIUM_SULFATE_ORE.get(), QuackhouseItems.MAGNESIUM_SULFATE_CRYSTAL.get(), 2, 6));
+
+        add(QuackhouseBlocks.SUSPICIOUS_STONE.get(),
+            createSilkTouchOnlyTable(QuackhouseItems.STONE_DUCKY));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block block, Item item, float minDrops, float maxDrops) {

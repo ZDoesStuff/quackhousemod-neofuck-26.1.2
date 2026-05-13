@@ -30,6 +30,9 @@ public class QuackhouseBlocks {
     public static final DeferredBlock<Block> MAGNESIUM_SULFATE_BRICKS = registerBlock("magnesium_sulfate_bricks",
             properties -> new Block(properties.strength(2f)
                     .requiresCorrectToolForDrops().sound(SoundType.CALCITE)));
+    public static final DeferredBlock<Block> SUSPICIOUS_STONE = registerBlock("suspicious_stone",
+            properties -> new Block(properties.strength(2f)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
 
     // Aaaaaaaaaand here we register the blocks themselves

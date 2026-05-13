@@ -27,6 +27,7 @@ public class QuackhouseCreativeModeTabs {
                         output.accept(QuackhouseBlocks.DEEPSLATE_MAGNESIUM_SULFATE_ORE);
                         output.accept(QuackhouseBlocks.MAGNESIUM_SULFATE_BLOCK);
                         output.accept(QuackhouseBlocks.MAGNESIUM_SULFATE_BRICKS);
+                        output.accept(QuackhouseBlocks.SUSPICIOUS_STONE);
 
                     }).build());
 

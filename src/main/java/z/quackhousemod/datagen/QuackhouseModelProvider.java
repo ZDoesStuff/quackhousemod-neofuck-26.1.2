@@ -41,5 +41,6 @@ public class QuackhouseModelProvider extends ModelProvider {
         blockModels.createTrivialCube(QuackhouseBlocks.DEEPSLATE_MAGNESIUM_SULFATE_ORE.get());
         blockModels.createTrivialCube(QuackhouseBlocks.MAGNESIUM_SULFATE_BLOCK.get());
         blockModels.createTrivialCube(QuackhouseBlocks.MAGNESIUM_SULFATE_BRICKS.get());
+        blockModels.createTrivialCube(QuackhouseBlocks.SUSPICIOUS_STONE.get());
     }
 }
